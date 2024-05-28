@@ -1,0 +1,26 @@
+:root {
+    --black:#000000;
+    --yellow:#ffc800;
+    --green:#00b090;
+    --white:#ffffff;
+    --dark-purple:#3f102d;
+    --blue:#171999;
+    --red:#da0707;
+    --gray:#eee;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Sora", sans-serif;
+    background-color: var(--gray);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    padding: 0 20px;
+}
